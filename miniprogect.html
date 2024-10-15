@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="miniprogect.css">
+
+    <!-- font link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- boostrap link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!-- boxicons links -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- res css -->
+     <link rel="stylesheet" href="media.css">
+
+
+
+    <script src="script.js"></script>
+
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init({
+        publicKey: "_zjRLd9EGqxRlsHYe",
+      });
+   })();
+</script>
+
+</head>
+<body>
+
+
+  <!-- -------home page----- -->
+ <div class="manu_bar">
+        <h1 class="logo">RAVI S</h1>
+    
+        <ul>
+           <li><a href="#home"><i class="fa-solid fa-house"></i>HOME</a></li>
+           <li><a href="#aboutme"><i class="fa-solid fa-address-card"></i>ABOUT ME</a></li>
+           <li><a href="#education"><i class="fa-solid fa-book"></i>EDUCATION</a></li>
+           <li><a href="#skills1"><i class="fa-solid fa-brain"></i>SKILLS</a></li>
+           <li><a href="#project"><i class="fa-solid fa-diagram-project"></i>PROJECT</a></li>
+           <!-- <li><a href="#intro"><i class="fa-solid fa-book"></i>INTRO</a></li> -->
+           <li><a href="#Contact"><i class="fa-solid fa-address-book"></i>CONTACT</a></li>
+
+           <!-- <li><a href="#home">HOME</a></li>
+           <li><a href="#aboutme">ABOUT ME</a></li>
+           <li><a href="#education">EDUCATION</a></li>
+           <li><a href="#skills1">SKILLS</a></li>
+           <li><a href="#project">PROJECT</a></li>
+           <li><a href="#Contact">CONTECT</a></li> -->
+
+        </ul>
+
+ </div>
+
+             <!-- -------about me page--------->
+
+ <div id="home"></div>
+ <img src="../picture/rvs3.jpeg" alt="">
+ <!-- image color -->
+  <!-- <div class="color"> </div> -->
+    <div class="name" >
+        <h1>HELLO,I AM <br><span class="a">RAVI S</span></h1>
+        <h3>FULL STACK DEVELOPER</h3>
+        <!-- <h5>WELCOME TO </h5> -->
+    </div>
+    <div class="btn">
+        <button><a href="resume.html">View CV</a> </button>
+        <button><a href="https://youtu.be/L7Zs5KwuI1c?si=yWtwsBEQ6h2Teyj8">video</a></button>
+    </div>
+
+
+    
+    <!-- ------about----- -->
+
+    <div  id="aboutme"></div>
+
+    <div class="aboutme">
+        <h1 id="head">ABOUT ME</h1>
+        
+        <p>I'm an aspiring <span>FULL STACK DEVELOPER</span> passionate about creating innovative websites 
+          and applications. With a strong foundation in both front-end and back-end technologies.<br> <br>
+          I aim to bring ideas to life through seamless, user-friendly digital experiences. <br>
+          Currently, I am honing my skills in <span>HTML, CSS, JavaScript</span>, and various backend frameworks,
+          with the goal of developing my own projects and contributing to impactful tech solutions.</p>
+          <img src="../picture/professial.jpeg" alt="" id="about_img">
+    </div>
+
+
+    <!-- ------education----- -->
+    <div id="education"></div>
+
+    <div class="education " >
+        <h2>EDUCATION</h2>
+        <div class="container">
+            <div class="row">
+              <div class="col-sm" id="img1">
+               <a href="../picture/10th.jpeg"> <img src="../picture/school.jpg" alt=""></a><br>
+                <button onclick="btn1()">More</button>
+                <div class="details" id="details">                
+                  <h4>SSLC</h4>
+                  
+                      Goverment Boys Higer Seconder School,Sulur
+                      percentage:78%; 
+                    </p>
+                </div>
+              </div>
+              <div class="col-sm">
+                <a href="../picture/12th.jpeg"><img src="../picture/school1.jpg" alt=""></a><br>
+                <button onclick="btn2()">More</button>
+                <div class="details1" id="details1">
+                <h4>HSC</h4>
+                
+                   Biology and Computer science <br>
+                   Goverment Boys Higer Seconder School,Sulur
+                  percentage:84.58% 
+                  </p>
+                </div>
+              </div>
+              <div class="col-sm">
+                <a href="../picture/college mark.jpeg"><img src="../picture/college.jfif" alt="" ></a><br>
+                <button onclick="btn3()">More</button>
+                <div class="details3" id="details3">
+                <h4>COLLEGE</h4>
+                
+                  Bcs Computer Science  -> MCA <br>
+                  RVS college of Arts and Science,Sulur
+                  percentage:85.56%
+                </p>
+              </div>
+              </div>
+            </div>
+          </div>
+    </div>
+
+
+
+
+    <!-- -------skills1---------- -->
+
+
+ <div class="skills1" id="skills1">
+    <h1 class="sub_title">My <span>Skills</span></h1>
+    <section id="skill01" >
+      <div class="container_1" id="Skills" >
+        <h1 class="heading">Teachnical Skills</h1>
+        <div class="teachnical-bars">
+          <div class="bar"><i style="color: #c95d2e;"  class="fa-brands fa-html5"></i>
+          <div class="indfo">
+            <span>HTML & CSS</span>
+          </div>
+          <div class="progress-line html">
+            <span></span>
+          </div>
+          </div>
+
+          <div class="bar"><i style="color: #147bbc;"    class="fa-brands fa-css3-alt"></i>
+            <div class="indfo">
+              <span>SQL</span>
+            </div>
+            <div class="progress-line css">
+              <span></span>
+            </div>
+            </div>
+
+            <div class="bar"><i style=color:#b0bc1e; class="fa-brands fa-js"></i>
+              <div class="indfo">
+                <span>JAVASCRIPT</span>
+              </div>
+              <div class="progress-line javascript">
+                <span></span>
+              </div>
+              </div>
+
+              <div class="bar"><i style=color:red; class="fa-brands fa-java"></i>
+                <div class="indfo">
+                  <span>JAVA</span>
+                </div>
+                <div class="progress-line java">
+                  <span></span>
+                </div>
+                </div>
+
+                <div class="bar"><i style=color:#c32ec9; class="fa-brands fa-python"></i>
+                  <div class="indfo">
+                    <span>PYTHON</span>
+                  </div>
+                  <div class="progress-line python">
+                    <span></span>
+                  </div>
+                  </div>
+        </div>
+        
+      </div>      
+    </section>
+  </div>
+              
+    
+                 <!-- ------source----- -->
+    <div class="source1">
+      <h2 id="sourcehead">SOCIAL MEDIA</h2>
+        <div class="center">
+            <!-- <h2>source</h2> -->
+            <a href="https://www.instagram.com/ravi__subramani____?utm_source=qr&igsh=MmR6OHBzcWc2emdo"><i class="fa-brands  fa-instagram"></i></a>
+            <a href="https://youtube.com/@ucsravi?si=1zXgt1l0lxHPn-ND"><i class="fa-brands fa-youtube"></i></a>
+            <a href="https://www.facebook.com/profile.php?id=100081170186089&mibextid=ZbWKwL"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://x.com/RAVIS9629640779?t=s9FQ446Ae95Fwy3_thjP8g&s=09"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://www.linkedin.com/in/ravi-s-a0ab25282"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://github.com/1U21CS084-RAVIS"><i class="fa-brands fa-github"></i></a>
+
+          </div>
+    </div>
+
+        <!-- <--------project1----- --> 
+
+        <div class="project" id="project">
+          <h2 class="projecthead">PROJECT</h2>
+          <div id="project1">
+            <h5> Multiple ball moving</h5>
+            <img src="../picture/multiple ball.jfif" alt="" >
+            <div id="readme1">
+              <button  class="readme1"><a href=" https://1u21cs084-ravis.github.io/ball-moving/">project view</a></button>  
+              <button class="code1"><a href="https://github.com/1U21CS084-RAVIS/ball-moving">code view</a></button>
+
+            </div>
+            
+          </div>
+
+          <div id="project2">
+            <h5>pacman</h5>
+            <img src="../picture/single_pacman-removebg-preview.png" alt="">
+            <div id="readme2">
+            <button class="readme2"><a href=" https://1u21cs084-ravis.github.io/pacMan/">project view</a></button> 
+             <button class="code2"><a href="https://github.com/1U21CS084-RAVIS/pacMan">code view</a></button>
+            </div>
+          </div>
+
+
+          <div id="project3">
+            <h5>Single ball moving</h5>
+            <img src="../picture/moving_ball-removebg-preview.png" alt="">
+            <div id="readme3">
+            <button class="readme3"><a href= " https://1u21cs084-ravis.github.io/single-ball-moving/">project view</a></button> 
+             <button class="code3"><a href="https://github.com/1U21CS084-RAVIS/single-ball-moving">  code view</a></button>
+            </div>
+          </div>
+           
+          <div id="project4">
+            <h5>Eye movement</h5>
+            <img src="../picture/eye_frame-removebg-preview (2).png" alt="">
+            <div id="readme4">
+              <button class="readme4"><a href=" https://1u21cs084-ravis.github.io/eye-frame/"> project view</a></button>  
+              <button class="code4"><a href="https://github.com/1U21CS084-RAVIS/eye-frame">code view</a></button>
+            </div>
+          </div>
+           
+          <div id="project5">
+            <h5>maltiple pacmen move</h5>
+            <img src="../picture/multiple_pacman-removebg-preview.png" alt="">
+            <div id="readme5">
+              <button class="readme5"><a href="https://github.com/1U21CS084-RAVIS/multiple-pacman">  code view</a></button>  
+              <button class="code5"><a href=" https://1u21cs084-ravis.github.io/multiple-pacman/">   project view</a></button>
+            </div>
+          </div>
+
+          <div id="project6">
+            <h5>Word count</h5>
+            <img src="../picture/word count.png" alt="">
+            <div id="readme5">
+              <button class="readme5"><a href="https://github.com/1U21CS084-RAVIS/wordcount1">  code view</a></button>  
+              <button class="code5"><a href=" https://1u21cs084-ravis.github.io/wordcount1/">   project view</a></button>
+            </div>
+          </div>
+
+
+          <div id="project7">
+            <h5>index</h5>
+            <img src="../picture/multiple data img.jfif" alt="">
+            <div id="readme5">
+              <button class="readme5"><a href="https://github.com/1U21CS084-RAVIS/boston">  code view</a></button>  
+              <button class="code5"><a href="   https://1u21cs084-ravis.github.io/boston/">   project view</a></button>
+            </div>
+          </div>
+
+
+          <div id="project8">
+            <h5>Tower-of-Honai</h5>
+            <img src="../picture/tower of honai.png" alt="">
+            <div id="readme5">
+              <button class="readme5"><a href="https://github.com/1U21CS084-RAVIS/tower--of-honai">  code view</a></button>  
+              <button class="code5"><a href=" https://1u21cs084-ravis.github.io/tower--of-honai/">   project view</a></button>
+            </div>
+          </div>
+
+          <div id="project9">
+            <h5>location moving</h5>
+            <img src="../picture/movig map.jfif" alt="">
+            <div id="readme5">
+              <button class="readme5"><a href="https://github.com/1U21CS084-RAVIS/moving-location">  code view</a></button>  
+              <button class="code5"><a href="  https://1u21cs084-ravis.github.io/moving-location/">   project view</a></button>
+            </div>
+          </div>
+       </div>
+
+       <div class="selfintro" id="intro">
+        <h2>SELF INTRODUCTION</h2>
+           <div>
+            <iframe width="851" height="480" src="https://www.youtube.com/embed/L7Zs5KwuI1c" title="my introduction... 🙂" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+           </div>
+       </div>
+
+
+
+
+
+
+
+       <!-- -------contect------ -->
+
+
+   <div id="Contact" class="contect1">
+       <h1>Contact me</h1>
+
+       <div class="form-container">
+        <form action="https://formsubmit.co/raviak213@gmail.com" method="POST" >           
+           <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="text" id="mail" name="email" required>
+
+            <label for="message">Message:</label>
+            
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <button class="contenetbtn"  type="submit" onclick="sendMail()">Submit</button>
+        </form>
+    </div>
+  </div>
+  
+
+  <button class="topbtn1" id="top12"><a href="#home"><i class="fa-solid fa-arrow-up" id="top_i"></i></a></button>
+    
+    <!-- ---------script------>
+    <!-- <script src="https://smtpjs.com/v3/smtp.js">
+    </script>
+
+    <script>
+      function sendEmail(){
+        Email.send({
+    Host : "smtp.gmail.com",
+    Username : "raviak213@gmail.com",
+    Password : "E175AF7189EAC00F711CBE7F5F46A1D3AEB5",
+    To : 'raviak213@gmail.com',
+    From : document.getElementById("email").value,
+    Subject : "This is the subject",
+    Body : "And this is the body"
+}).then(
+  message => alert(message)
+);
+      }
+    </script> -->
+
+     <!-- <script src="contect form to email.js"></script> -->
+
+    
+<script>
+    function btn1(){
+      let details = document.getElementById('details');
+      details.style.display="block";
+    }
+
+    function btn2(){
+        let details1= document.getElementById('details1');
+        details1.style.display="block";
+    }
+    function btn3(){
+      let details3=document.getElementById('details3');
+      details3.style.display='block';
+    }
+</script>
+
+
+</body>
+</html>
