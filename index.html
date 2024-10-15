@@ -17,6 +17,9 @@
     <!-- res css -->
      <link rel="stylesheet" href="media.css">
 
+     <!-- ----animation--- -->
+     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 
 
     <script src="script.js"></script>
@@ -37,8 +40,8 @@
 
 
   <!-- -------home page----- -->
- <div class="manu_bar">
-        <h1 class="logo">RAVI S</h1>
+ <div class="manu_bar" data-aos="fade-up">
+        <h1 class="logo" data-aos="fade-up">RAVI S</h1>
     
         <ul>
            <li><a href="#home"><i class="fa-solid fa-house"></i>HOME</a></li>
@@ -63,15 +66,15 @@
              <!-- -------about me page--------->
 
  <div id="home"></div>
- <img src="picture/rvs3.jpeg" alt="">
+ <img src="../picture/rvs3.jpeg" alt="">
  <!-- image color -->
   <!-- <div class="color"> </div> -->
     <div class="name" >
-        <h1>HELLO,I AM <br><span class="a">RAVI S</span></h1>
-        <h3>FULL STACK DEVELOPER</h3>
+        <h1 data-aos="fade-up">HELLO,I AM <br><span class="a">RAVI S</span></h1>
+        <h3 data-aos="fade-up">FULL STACK DEVELOPER</h3>
         <!-- <h5>WELCOME TO </h5> -->
     </div>
-    <div class="btn">
+    <div class="btn" data-aos="fade-up">
         <button><a href="resume.html">View CV</a> </button>
         <button><a href="https://youtu.be/L7Zs5KwuI1c?si=yWtwsBEQ6h2Teyj8">video</a></button>
     </div>
@@ -82,27 +85,28 @@
 
     <div  id="aboutme"></div>
 
-    <div class="aboutme">
-        <h1 id="head">ABOUT ME</h1>
+    <div class="aboutme" data-aos="fade-up">
+        <h1 id="head" data-aos="fade-up">ABOUT ME</h1>
         
         <p>I'm an aspiring <span>FULL STACK DEVELOPER</span> passionate about creating innovative websites 
           and applications. With a strong foundation in both front-end and back-end technologies.<br> <br>
           I aim to bring ideas to life through seamless, user-friendly digital experiences. <br>
           Currently, I am honing my skills in <span>HTML, CSS, JavaScript</span>, and various backend frameworks,
           with the goal of developing my own projects and contributing to impactful tech solutions.</p>
-          <img src="picture/professial.jpeg" alt="" id="about_img">
+          <img src="../picture/professial.jpeg" alt="" id="about_img" data-aos="fade-up">
     </div>
 
 
     <!-- ------education----- -->
     <div id="education"></div>
 
-    <div class="education " >
+    <div class="education " data-aos="fade-up"
+    data-aos-anchor-placement="center-bottom" >
         <h2>EDUCATION</h2>
         <div class="container">
             <div class="row">
               <div class="col-sm" id="img1">
-               <a href="picture/10th.jpeg"> <img src="picture/school.jpg" alt=""></a><br>
+               <a href="../picture/10th.jpeg"> <img src="../picture/school.jpg" alt=""></a><br>
                 <button onclick="btn1()">More</button>
                 <div class="details" id="details">                
                   <h4>SSLC</h4>
@@ -113,7 +117,7 @@
                 </div>
               </div>
               <div class="col-sm">
-                <a href="picture/12th.jpeg"><img src="picture/school1.jpg" alt=""></a><br>
+                <a href="../picture/12th.jpeg"><img src="../picture/school1.jpg" alt=""></a><br>
                 <button onclick="btn2()">More</button>
                 <div class="details1" id="details1">
                 <h4>HSC</h4>
@@ -125,7 +129,7 @@
                 </div>
               </div>
               <div class="col-sm">
-                <a href="picture/college mark.jpeg"><img src="picture/college.jfif" alt="" ></a><br>
+                <a href="../picture/college mark.jpeg"><img src="../picture/college.jfif" alt="" ></a><br>
                 <button onclick="btn3()">More</button>
                 <div class="details3" id="details3">
                 <h4>COLLEGE</h4>
@@ -146,10 +150,10 @@
     <!-- -------skills1---------- -->
 
 
- <div class="skills1" id="skills1">
+ <div class="skills1" id="skills1" data-aos="fade-up-right">
     <h1 class="sub_title">My <span>Skills</span></h1>
     <section id="skill01" >
-      <div class="container_1" id="Skills" >
+      <div class="container_1" id="Skills" data-aos="fade-up">
         <h1 class="heading">Teachnical Skills</h1>
         <div class="teachnical-bars">
           <div class="bar"><i style="color: #c95d2e;"  class="fa-brands fa-html5"></i>
@@ -161,7 +165,7 @@
           </div>
           </div>
 
-          <div class="bar"><i style="color: #147bbc;"    class="fa-brands fa-css3-alt"></i>
+          <div class="bar" data-aos="fade-up"><i style="color: #147bbc;"    class="fa-brands fa-css3-alt"></i>
             <div class="indfo">
               <span>SQL</span>
             </div>
@@ -170,7 +174,7 @@
             </div>
             </div>
 
-            <div class="bar"><i style=color:#b0bc1e; class="fa-brands fa-js"></i>
+            <div class="bar" data-aos="fade-up"><i style=color:#b0bc1e; class="fa-brands fa-js"></i>
               <div class="indfo">
                 <span>JAVASCRIPT</span>
               </div>
@@ -179,7 +183,7 @@
               </div>
               </div>
 
-              <div class="bar"><i style=color:red; class="fa-brands fa-java"></i>
+              <div class="bar" data-aos="fade-up"><i style=color:red; class="fa-brands fa-java"></i>
                 <div class="indfo">
                   <span>JAVA</span>
                 </div>
@@ -188,7 +192,7 @@
                 </div>
                 </div>
 
-                <div class="bar"><i style=color:#c32ec9; class="fa-brands fa-python"></i>
+                <div class="bar" data-aos="fade-up"><i style=color:#c32ec9; class="fa-brands fa-python"></i>
                   <div class="indfo">
                     <span>PYTHON</span>
                   </div>
@@ -204,7 +208,7 @@
               
     
                  <!-- ------source----- -->
-    <div class="source1">
+    <div class="source1" data-aos="fade-up-left">
       <h2 id="sourcehead">SOCIAL MEDIA</h2>
         <div class="center">
             <!-- <h2>source</h2> -->
@@ -220,11 +224,12 @@
 
         <!-- <--------project1----- --> 
 
-        <div class="project" id="project">
+        <div class="project" id="project" data-aos="fade-up"
+        data-aos-duration="3000">
           <h2 class="projecthead">PROJECT</h2>
           <div id="project1">
             <h5> Multiple ball moving</h5>
-            <img src="picture/multiple ball.jfif" alt="" >
+            <img src="../picture/multiple ball.jfif" alt="" >
             <div id="readme1">
               <button  class="readme1"><a href=" https://1u21cs084-ravis.github.io/ball-moving/">project view</a></button>  
               <button class="code1"><a href="https://github.com/1U21CS084-RAVIS/ball-moving">code view</a></button>
@@ -233,9 +238,10 @@
             
           </div>
 
-          <div id="project2">
+          <div id="project2" data-aos="fade-up"
+          data-aos-duration="3000">
             <h5>pacman</h5>
-            <img src="picture/single_pacman-removebg-preview.png" alt="">
+            <img src="../picture/single_pacman-removebg-preview.png" alt="">
             <div id="readme2">
             <button class="readme2"><a href=" https://1u21cs084-ravis.github.io/pacMan/">project view</a></button> 
              <button class="code2"><a href="https://github.com/1U21CS084-RAVIS/pacMan">code view</a></button>
@@ -243,36 +249,40 @@
           </div>
 
 
-          <div id="project3">
+          <div id="project3" data-aos="fade-up"
+          data-aos-duration="3000">
             <h5>Single ball moving</h5>
-            <img src="picture/moving_ball-removebg-preview.png" alt="">
+            <img src="../picture/moving_ball-removebg-preview.png" alt="">
             <div id="readme3">
             <button class="readme3"><a href= " https://1u21cs084-ravis.github.io/single-ball-moving/">project view</a></button> 
              <button class="code3"><a href="https://github.com/1U21CS084-RAVIS/single-ball-moving">  code view</a></button>
             </div>
           </div>
            
-          <div id="project4">
+          <div id="project4" data-aos="fade-up"
+          data-aos-duration="3000">
             <h5>Eye movement</h5>
-            <img src="picture/eye_frame-removebg-preview (2).png" alt="">
+            <img src="../picture/eye_frame-removebg-preview (2).png" alt="">
             <div id="readme4">
               <button class="readme4"><a href=" https://1u21cs084-ravis.github.io/eye-frame/"> project view</a></button>  
               <button class="code4"><a href="https://github.com/1U21CS084-RAVIS/eye-frame">code view</a></button>
             </div>
           </div>
            
-          <div id="project5">
+          <div id="project5" data-aos="fade-up"
+          data-aos-duration="3000">
             <h5>multiple pacmen move</h5>
-            <img src="picture/multiple_pacman-removebg-preview.png" alt="">
+            <img src="../picture/multiple_pacman-removebg-preview.png" alt="">
             <div id="readme5">
               <button class="readme5"><a href="https://github.com/1U21CS084-RAVIS/multiple-pacman">  code view</a></button>  
               <button class="code5"><a href=" https://1u21cs084-ravis.github.io/multiple-pacman/">   project view</a></button>
             </div>
           </div>
 
-          <div id="project6">
+          <div id="project6" data-aos="fade-up"
+          data-aos-duration="3000">
             <h5>Word count</h5>
-            <img src="picture/word count.png" alt="">
+            <img src="../picture/word count.png" alt="">
             <div id="readme5">
               <button class="readme5"><a href="https://github.com/1U21CS084-RAVIS/wordcount1">  code view</a></button>  
               <button class="code5"><a href=" https://1u21cs084-ravis.github.io/wordcount1/">   project view</a></button>
@@ -280,9 +290,10 @@
           </div>
 
 
-          <div id="project7">
+          <div id="project7" data-aos="fade-up"
+          data-aos-duration="3000">
             <h5>index</h5>
-            <img src="picture/multiple data img.jfif" alt="">
+            <img src="../picture/multiple data img.jfif" alt="">
             <div id="readme5">
               <button class="readme5"><a href="https://github.com/1U21CS084-RAVIS/boston">  code view</a></button>  
               <button class="code5"><a href="   https://1u21cs084-ravis.github.io/boston/">   project view</a></button>
@@ -290,18 +301,20 @@
           </div>
 
 
-          <div id="project8">
+          <div id="project8" data-aos="fade-up"
+          data-aos-duration="3000">
             <h5>Tower-of-Honai</h5>
-            <img src="picture/tower of honai.png" alt="">
+            <img src="../picture/tower of honai.png" alt="">
             <div id="readme5">
               <button class="readme5"><a href="https://github.com/1U21CS084-RAVIS/tower--of-honai">  code view</a></button>  
               <button class="code5"><a href=" https://1u21cs084-ravis.github.io/tower--of-honai/">   project view</a></button>
             </div>
           </div>
 
-          <div id="project9">
+          <div id="project9" data-aos="fade-up"
+          data-aos-duration="3000">
             <h5>location moving</h5>
-            <img src="picture/movig map.jfif" alt="">
+            <img src="../picture/movig map.jfif" alt="">
             <div id="readme5">
               <button class="readme5"><a href="https://github.com/1U21CS084-RAVIS/moving-location">  code view</a></button>  
               <button class="code5"><a href="  https://1u21cs084-ravis.github.io/moving-location/">   project view</a></button>
@@ -309,7 +322,9 @@
           </div>
        </div>
 
-       <div class="selfintro" id="intro">
+       <div class="selfintro" id="intro" data-aos="fade-down"
+       data-aos-easing="linear"
+       data-aos-duration="1500">
         <h2>SELF INTRODUCTION</h2>
            <div>
             <iframe width="851" height="480" src="https://www.youtube.com/embed/L7Zs5KwuI1c" title="my introduction... 🙂" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -325,7 +340,9 @@
        <!-- -------contect------ -->
 
 
-   <div id="Contact" class="contect1">
+   <div id="Contact" class="contect1" data-aos="fade-right"
+   data-aos-offset="300"
+   data-aos-easing="ease-in-sine">
        <h1>Contact me</h1>
 
        <div class="form-container">
@@ -385,6 +402,11 @@
       let details3=document.getElementById('details3');
       details3.style.display='block';
     }
+</script>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
 </script>
 
 
